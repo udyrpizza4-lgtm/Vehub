@@ -10,11 +10,11 @@ local function script()
 end
 
 local function loadui()
-    loadstring(game:HttpGet("https://pastebin.com/raw/G3amcUpn"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bla3de/literate-adventure/refs/heads/main/autofarm"))()
 end
 
 local function loadui()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bla3de/QXOSCRIPT-/refs/heads/main/file/hand/g"))()
 end
 
 task.spawn(script)
