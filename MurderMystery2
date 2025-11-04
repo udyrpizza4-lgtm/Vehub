@@ -10,13 +10,23 @@ local function script()
 end
 
 local function loadui()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/bla3de/literate-adventure/refs/heads/main/autofarm"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/G3amcUpn"))()
 end
 
 local function loadui()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/bla3de/QXOSCRIPT-/refs/heads/main/file/hand/g"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua"))()
 end
 
 task.spawn(script)
 task.wait(5)
-task.spawn(loadui)
+task.spawn(loadui) -- Auto copy Discord link after 5 seconds
+task.spawn(function()
+    task.wait(5)
+    setclipboard("https://discord.gg/zFAQkBkZ")
+    WindUI:Notify({
+        Title = "Discord Copied!",
+        Content = "Join our community! Link copied to clipboard.",
+        Icon = "message-circle",
+        Duration = 4
+    })
+end)
